@@ -1,1 +1,29 @@
 @import 'bootstrap';
+@import 'bootstrap-icons';
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+.bi {
+    color: white;
+}
+
+.bi:hover {
+    color: #F29100;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 0.8;
+}
+
+.nav-link:hover, .active {
+    color: #F29100 !important;
+}

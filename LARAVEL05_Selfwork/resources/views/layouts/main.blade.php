@@ -7,8 +7,12 @@
     <title>{{ $title }}</title>
 
     <link rel="icon" type="image/x-icon" href="img\IronFit_w_Favicon.ico">
+
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    
+    <x-navbar/>
+    <h1>ciao</h1>
 </body>
 </html>
