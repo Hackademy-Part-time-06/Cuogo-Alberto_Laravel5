@@ -1,7 +1,7 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-black o-0" style="--bs-bg-opacity: .8;">
     <div class="container">
         <a class="navbar-brand col-4 col-md-3 col-lg-2 p-0" href="{{ route('homepage') }}">
-            <img class="w-75" src="img\logo\IronFit_w.png" alt="">
+            <img class="w-75" src="\img\logo\IronFit_w.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

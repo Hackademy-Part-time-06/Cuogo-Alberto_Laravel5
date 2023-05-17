@@ -14,7 +14,7 @@
             <div class="carousel-inner h-70 rounded">
                 <div class="carousel-item active">
                     <img src="img\corsi\weightlifting.jpg" class="d-block w-100" alt="">
-                    <div class="carousel-caption top-0 mt-4">
+                    <div class="carousel-caption top-0 mt-5">
                         <p id="card-category" class="mb-0 text-uppercase fw-bold fs-3 text-shadow">Strenght</p>
                         <h3 class="text-uppercase fw-bold fs-1 text-shadow">Weightlifting</h3>
                         <a id="btn-carousel" type="button"
@@ -48,7 +48,7 @@
 
 
 
-    <h2 class="text-center fs-1 mt-5 mb-3">I nostri Corsi</h2>
+    <h2 class="text-center fs-1 mt-5 mb-3">- I nostri Corsi -</h2>
 
     <section>
         <div class="container w-75 mb-5">
