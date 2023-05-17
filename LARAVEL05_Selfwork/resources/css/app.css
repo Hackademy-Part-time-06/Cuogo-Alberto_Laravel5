@@ -54,3 +54,11 @@ body {
 .text-shadow {
     text-shadow: 0 0.5rem 1rem black;
 }
+
+.btn-trainer:hover {
+    background-color: #F29100;
+}
+
+.btn-price {
+    background-color: #F29100;
+}

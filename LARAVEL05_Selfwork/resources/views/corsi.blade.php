@@ -10,8 +10,8 @@
                         <div class="card text-bg-dark border-0">
                             <img src="img\corsi\weightlifting.jpg" class="card-img" alt="">
                             <div class="card-img position-absolute p-3 text-end bottom-0">
-                                <p id="card-category" class="card-text mb-0 text-uppercase fw-semibold">Strenght</p>
-                                <h3 class="card-title text-uppercase fw-bold fs-2">Weightlifting</h3>
+                                <p id="card-category" class="card-text mb-0 text-uppercase fw-semibold text-shadow">Strenght</p>
+                                <h3 class="card-title text-uppercase fw-bold fs-2 text-shadow">Weightlifting</h3>
                             </div>
                         </div>
                     </a>
@@ -21,8 +21,8 @@
                         <div class="card text-bg-dark border-0">
                             <img src="img\corsi\running.jpg" class="card-img" alt="">
                             <div class="card-img position-absolute p-3 text-end bottom-0">
-                                <p id="card-category" class="card-text mb-0 text-uppercase fw-semibold">Cardio</p>
-                                <h3 class="card-title text-uppercase fw-bold fs-2">Running</h3>
+                                <p id="card-category" class="card-text mb-0 text-uppercase fw-semibold text-shadow">Cardio</p>
+                                <h3 class="card-title text-uppercase fw-bold fs-2 text-shadow">Running</h3>
                             </div>
                         </div>
                     </a>
@@ -32,9 +32,9 @@
                         <div class="card text-bg-dark border-0">
                             <img src="img\corsi\box.jpg" class="card-img" alt="">
                             <div class="card-img position-absolute p-3 pe-5 text-end bottom-0">
-                                <p id="card-category" class="card-text mb-0 text-uppercase fw-semibold fs-5">Training
+                                <p id="card-category" class="card-text mb-0 text-uppercase fw-semibold fs-5 text-shadow">Training
                                 </p>
-                                <h3 class="card-title text-uppercase fw-bold fs-1">Box</h3>
+                                <h3 class="card-title text-uppercase fw-bold fs-1 text-shadow">Box</h3>
                             </div>
                         </div>
                     </a>
