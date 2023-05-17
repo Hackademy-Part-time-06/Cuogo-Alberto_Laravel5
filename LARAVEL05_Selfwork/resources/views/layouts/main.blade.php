@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title }}</title>
 
-    <link rel="icon" type="image/x-icon" href="img\IronFit_w_Favicon.ico">
+    <link rel="icon" type="image/x-icon" href="img\logo\IronFit_w_Favicon.ico">
 
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     <x-navbar/>
-    <h1>ciao</h1>
+    
+    {{$slot}}
+
+    <x-footer/>
 </body>
 </html>

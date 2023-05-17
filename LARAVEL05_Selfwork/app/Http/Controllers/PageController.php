@@ -10,6 +10,7 @@ class PageController extends Controller
         [
             "name" => "weightlifting",
             "category" => "strenght",
+            "img" => "img/corsi/weightlifting.jpg",
             "trainer" => "Sam Cook",
             "time" => [
                 "lunedì" => "18.00 - 22.00",
@@ -22,6 +23,7 @@ class PageController extends Controller
         [
             "name" => "running",
             "category" => "cardio",
+            "img" => "img/corsi/running.jpg",
             "trainer" => "Marylin Smith",
             "time" => [
                 "martedì" => "12.00 - 14.00",
@@ -34,6 +36,7 @@ class PageController extends Controller
         [
             "name" => "box",
             "category" => "training",
+            "img" => "img/corsi/box.jpg",
             "trainer" => "Adam Krakovic",
             "time" => [
                 "lunedì" => "15.00 - 18.00",
@@ -44,6 +47,14 @@ class PageController extends Controller
             "price" => 800
         ],
     ];
+
+    public function getCorsi($name) {
+        foreach (self::$corsi as $corso) {
+            if ($corso["name"] == $name) {
+                return ['corso' => $corso];
+            }
+        }
+    }
 
     public function homepage() {
         return view('homepage');

@@ -4,12 +4,14 @@
 body {
     background-color: black;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 
 .bi {
     color: white;
+    font-size: 1.5rem;
 }
 
 .bi:hover {
@@ -18,7 +20,7 @@ body {
 
 .nav-link {
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 0.8;
@@ -26,4 +28,14 @@ body {
 
 .nav-link:hover, .active {
     color: #F29100 !important;
+}
+
+
+#footer {
+    height: 3rem;
+}
+
+
+#card-category {
+    color: #F29100;
 }
