@@ -7,7 +7,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+.h-70 {
+    height: 70vh;
+}
 
 .bi {
     color: white;
@@ -38,4 +40,17 @@ body {
 
 #card-category {
     color: #F29100;
+}
+
+.btn-gym {
+    background-color: #F29100;
+    border: none;
+}
+
+.btn-gym:hover {
+    background-color: black;
+}
+
+.text-shadow {
+    text-shadow: 0 0.5rem 1rem black;
 }
