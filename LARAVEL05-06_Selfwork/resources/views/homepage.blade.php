@@ -1,5 +1,5 @@
 <x-main>
-    <x-slot name="title">Homepage</x-slot>
+    <x-slot name="title">IRON FIT</x-slot>
 
     <div class="container w-75">
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="true">
@@ -50,44 +50,6 @@
 
     <h2 class="text-center fs-1 mt-5 mb-3">- I nostri Corsi </h2>
 
-    <section>
-        <div class="container w-75 mb-5">
-            <div class="row g-3">
-                <div class="col-12 col-md-6">
-                    <a href="{{ route('detail', ['name' => 'weightlifting']) }}">
-                        <div class="card text-bg-dark border-0">
-                            <img src="img\corsi\weightlifting.jpg" class="card-img" alt="">
-                            <div class="card-img position-absolute p-3 text-end bottom-0">
-                                <p id="card-category" class="card-text mb-0 text-uppercase fw-semibold text-shadow">Strenght</p>
-                                <h3 class="card-title text-uppercase fw-bold fs-2 text-shadow">Weightlifting</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-md-6">
-                    <a href="{{ route('detail', ['name' => 'running']) }}">
-                        <div class="card text-bg-dark border-0">
-                            <img src="img\corsi\running.jpg" class="card-img" alt="">
-                            <div class="card-img position-absolute p-3 text-end bottom-0">
-                                <p id="card-category" class="card-text mb-0 text-uppercase fw-semibold text-shadow">Cardio</p>
-                                <h3 class="card-title text-uppercase fw-bold fs-2 text-shadow">Running</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12">
-                    <a href="{{ route('detail', ['name' => 'box']) }}">
-                        <div class="card text-bg-dark border-0">
-                            <img src="img\corsi\box.jpg" class="card-img" alt="">
-                            <div class="card-img position-absolute p-3 pe-5 text-end bottom-0">
-                                <p id="card-category" class="card-text mb-0 text-uppercase fw-semibold fs-5 text-shadow">Training
-                                </p>
-                                <h3 class="card-title text-uppercase fw-bold fs-1 text-shadow">Box</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <x-corsi_grid />
+
 </x-main>

@@ -1,3 +1,3 @@
 <x-main>
-    <x-slot name="title">Contatti</x-slot>
+    <x-slot name="title">IRON FIT - Contatti</x-slot>
 </x-main>
