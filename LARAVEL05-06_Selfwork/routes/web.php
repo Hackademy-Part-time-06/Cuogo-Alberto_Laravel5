@@ -22,6 +22,4 @@ Route::get('/corsi/{name}', [PageController::class, 'detail'])->name('detail');
 Route::get('/contatti', [PageController::class, 'contact'])->name('contact');
 Route::post('/invia', [PageController::class, 'send'])->name('send');
 
-Route::get('/grazie', function () {
-    return 'Grazie';
-})->name('thank');
+Route::get('/grazie', [PageController::class, 'thankyou'])->name('thank');

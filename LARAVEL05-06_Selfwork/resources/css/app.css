@@ -11,9 +11,10 @@ body {
     height: 70vh;
 }
 
-.w-40 {
-    width: 40%;
+.h-65 {
+    height: 65vh;
 }
+
 
 .bi {
     color: white;
@@ -26,6 +27,10 @@ body {
 
 .bi-person-vcard-fill:hover {
     color: white;
+}
+
+#btn-thank:hover .bi-house-heart-fill {
+    color: black !important;
 }
 
 .nav-link {

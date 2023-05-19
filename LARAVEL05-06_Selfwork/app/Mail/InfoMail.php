@@ -24,15 +24,15 @@ class InfoMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            from: new Address('cuogo@test.it', 'Alberto'),
-            subject: 'Info Mail',
+            from: new Address('info@ironfit.it', 'IRON FIT'),
+            subject: 'Richiesta informazioni'
         );
     }
 
     public function content(): Content
     {
         return new Content(
-            view: 'send.mail',
+            view: 'send.mail'
         );
     }
 

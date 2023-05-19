@@ -102,8 +102,12 @@ class PageController extends Controller
         Mail::to($request->input('email'))->send(new InfoMail($data));
 
         return redirect()
-            ->route('homepage')
+            ->route('thank')
             ->with('success', 'Email inviata')
             ->with('customer', $data);
+    }
+
+    public function thankyou() {
+        return view('thankyou');
     }
 }
