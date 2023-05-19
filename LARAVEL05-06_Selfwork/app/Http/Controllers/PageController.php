@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\InfoMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+
+use function GuzzleHttp\Promise\all;
 
 class PageController extends Controller
 {
@@ -76,5 +80,30 @@ class PageController extends Controller
 
     public function contact() {
         return view('contact');
+    }
+
+    public function send(Request $request) {
+        // Validazione dati
+        $request->validate([
+            "name" => "required|string",
+            "email" => "required|email",
+            "corso" => "required",
+            "message" => "min:10"
+        ]);
+
+        $data = [
+            "firstname" => $request->name,
+            "email" => $request->email,
+            "phone" => $request->phone,
+            "corso" => $request->corso,
+            "message" => $request->message
+        ];
+
+        Mail::to($request->input('email'))->send(new InfoMail($data));
+
+        return redirect()
+            ->route('homepage')
+            ->with('success', 'Email inviata')
+            ->with('customer', $data);
     }
 }

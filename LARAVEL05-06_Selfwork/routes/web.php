@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +18,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PageController::class, 'homepage'])->name('homepage');
 Route::get('/corsi', [PageController::class, 'corsi'])->name('corsi');
 Route::get('/corsi/{name}', [PageController::class, 'detail'])->name('detail');
+
 Route::get('/contatti', [PageController::class, 'contact'])->name('contact');
+Route::post('/invia', [PageController::class, 'send'])->name('send');
+
+Route::get('/grazie', function () {
+    return 'Grazie';
+})->name('thank');

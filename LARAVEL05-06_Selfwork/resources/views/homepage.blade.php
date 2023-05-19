@@ -48,7 +48,7 @@
 
 
 
-    <h2 class="text-center fs-1 mt-5 mb-3">- I nostri Corsi </h2>
+    <h2 class="text-center fs-1 mt-5 mb-3">- I nostri Corsi -</h2>
 
     <x-corsi_grid />
 

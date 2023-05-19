@@ -1,5 +1,5 @@
 <x-main>
-    <x-slot name="title">IRON FIT - Corso di {{ $corso['name'] }}</x-slot>
+    <x-slot name="title">IRON FIT - Corso di {{ ucfirst($corso['name']) }}</x-slot>
 
     <div class="container mb-5">
         <div class="row">
